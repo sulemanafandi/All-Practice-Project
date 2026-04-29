@@ -1,0 +1,201 @@
+🔹 Editor ↔ Terminal کے درمیان جانے کے Shortcuts
+
+Ctrl + (control + backtick) → terminal کو open / focus کرنے کے لیے
+(backtick وہ button ہوتا ہے جو Esc کے نیچے اور 1 کے بائیں side پر ہوتا ہے)
+
+اگر terminal already open ہے لیکن focus editor میں ہے:
+
+Ctrl + دباؤ → focus terminal پر چلا جائے گا۔
+
+واپس terminal سے editor پر آنے کے لیے:
+
+Ctrl + 1 → editor پر focus
+
+Ctrl + 2 → اگر دوسرا editor group ہے تو اس پر focus
+(یا simply terminal میں سے Esc دباؤ تو واپس editor پر آ جاؤ گے)
+
+🔹 Extra Tips
+
+Ctrl + Shift + → نیا terminal کھل جائے گا۔
+
+Ctrl + Tab → مختلف tabs (files/terminals) کے درمیان quickly switch 
+کرنے کے لیے۔
+
+
+
+⚡ VS Code Useful Shortcuts
+🔹 Terminal
+
+`Ctrl + `` → Terminal show / hide
+
+`Ctrl + Shift + `` → New terminal
+
+Ctrl + C (inside terminal) → running process stop
+
+Esc (inside terminal) → focus واپس editor پر
+
+🔹 File & Project
+
+Ctrl + P → Quick open (file name type کر کے open کرو)
+
+Ctrl + N → New file
+
+Ctrl + S → Save file
+
+Ctrl + Shift + S → Save as
+
+Ctrl + W → Close file
+
+Ctrl + Shift + T → Recently closed file دوبارہ کھولو
+
+🔹 Search & Navigation
+
+Ctrl + F → Find in file
+
+Ctrl + H → Find & Replace in file
+
+Ctrl + Shift + F → Search in whole project
+
+Ctrl + G → Go to line
+
+Ctrl + Shift + O → Go to symbol in file (functions, classes etc.)
+
+Ctrl + Tab → Switch between recent files
+
+🔹 Code Editing
+
+Alt + ↑ / ↓ → Move line up or down
+
+Shift + Alt + ↓ → Copy line down
+
+Ctrl + / → Comment / Uncomment line
+
+Ctrl + Shift + K → Delete line
+
+Ctrl + Space → Trigger IntelliSense / Suggestions
+
+Ctrl + Shift + Alt + Arrow → Multi-cursor editing
+
+🔹 Split & View
+
+Ctrl + \ → Split editor (side by side view)
+
+Ctrl + 1 / 2 / 3 → Focus on editor group 1, 2, 3
+
+Ctrl + B → Toggle sidebar (explorer hide/show)
+
+Ctrl + J → Toggle panel (terminal, problems, output)
+
+🔹 Debugging
+
+F5 → Start debugging
+
+Shift + F5 → Stop debugging
+
+F9 → Toggle breakpoint
+
+F10 → Step over
+
+F11 → Step into
+
+
+🔹 Cursor & Editing Magic
+
+Ctrl + D → ایک ہی جیسے اگلے word کو بھی select کر لو (multi-cursor)
+
+Ctrl + Shift + L → ایک ہی جیسے سارے words کو ایک ساتھ select کر لو (multi-cursor everywhere)
+
+Alt + Click → جہاں click کرو وہاں extra cursor لگ جائے گا
+
+Ctrl + Shift + Alt + ↑/↓ → vertical multi-cursor (column edit mode)
+
+Shift + Alt + F → پورا code auto format (Prettier یا default formatter)
+
+🔹 Code Navigation Super Fast
+
+F12 → Go to definition (function / class پر jump)
+
+Alt + F12 → Peek definition (popup میں دیکھو بغیر jump کیے)
+
+Ctrl + K, Ctrl + I → Quick info (hover info manually)
+
+Ctrl + Shift + \\ → Matching bracket پر jump کرو
+
+🔹 Project Productivity
+
+Ctrl + Shift + P → Command palette (VS Code کا secret weapon، ہر hidden feature یہیں سے ملے گا)
+
+Ctrl + Shift + N → New VS Code window
+
+Ctrl + K, Ctrl + O → New folder/project open
+
+Ctrl + Shift + E → Focus explorer panel
+
+Ctrl + Shift + M → Problems (lint errors / warnings) panel کھولو
+
+🔹 Git / Version Control
+
+Ctrl + Shift + G → Open source control panel
+
+Ctrl + Enter (inside commit box) → Quick commit
+
+Alt + ↓/↑ → Move changes line by line in diff view
+
+🔹 Search & Replace Pro Tricks
+
+Ctrl + Shift + H → Replace across whole project
+
+Ctrl + Shift + J → Toggle search details (regex, match case, whole word)
+
+🔹 Focus & Zen
+
+Ctrl + K Z → Zen mode (full screen, no distractions)
+
+Ctrl + Tab → Switch to last file (like Alt+Tab for windows)
+
+Ctrl + Shift + Tab → Switch back in reverse order
+
+
+ChatGPT said:
+
+زبردست سلمان 👍
+چلو اب میں تمہیں وہ Shortcut Recovery Trick بتا دیتا ہوں، تاکہ اگر کل کو VS Code میں کوئی shortcut کام نہ کرے تو فوراً واپس لے آؤ۔
+
+⚡ Shortcut Recovery / Fixing Trick (VS Code)
+1. Keyboard Shortcuts Window
+
+Shortcut: Ctrl + K, Ctrl + S
+
+یہاں پوری list کھل جائے گی کہ کون سا shortcut کس کام کے لیے ہے۔
+
+2. Shortcut Search کرو
+
+Example: اگر Ctrl + / comment کے لیے کام نہیں کر رہا → سرچ bar میں comment لکھو → result آ جائے گا۔
+
+وہاں دیکھ لو کہ shortcut کسی دوسرے کام سے clash تو نہیں کر رہا۔
+
+3. Reset to Default
+
+کسی بھی shortcut پر Right Click → Reset Keybinding کرو۔
+
+یہ فوراً واپس default پر آ جائے گا۔
+
+4. Shortcut Rebind کرو
+
+اگر کوئی clash ہے یا shortcut بدل گیا ہے:
+
+Shortcut پر Double Click کرو
+
+اپنی مرضی کا نیا shortcut assign کر دو۔
+
+Example: Comment کے لیے دوبارہ Ctrl + / یا کچھ اور لگا سکتے ہو۔
+
+5. Export / Backup (Pro Trick)
+
+اگر تم نے اپنی مرضی کے shortcuts بنا لیے ہیں → Backup رکھ سکتے ہو۔
+
+Command Palette (Ctrl + Shift + P) → Preferences: Open Keyboard Shortcuts (JSON)
+
+اس میں تمہارے سارے custom shortcuts JSON فارمیٹ میں ہوں گے → اسے safe رکھ لو۔
+
+بعد میں کسی بھی PC پر import کر سکتے ہو۔

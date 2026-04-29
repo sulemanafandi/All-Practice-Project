@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+
+<body bgcolor="#FFE4E1">
+    <center>
+        <h1>Student Registration Form</h1>
+    </center>
+    <form>
+        <center>
+            <table>
+                <tr>
+                    <td><label for="roll">Roll No :</label></td>
+                    <td></td>
+                    <td><input type="number" id="roll" name="roll" placeholder="Roll Number" required></td>
+                </tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr>
+                    <td><label for="firstname">Student Name :</label></td>
+                    <td></td>
+                    <td>
+                        <input type="text" id="firstname" name="firstname" placeholder="First Name" required>
+                        -
+                        <input type="text" id="lastname" name="lastname" placeholder="Last Name" required>
+                    </td>
+                </tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr>
+                    <td><label for="fname">Father's Name :</label></td>
+                    <td></td>
+                    <td><input type="text" id="fname" name="fname" placeholder="Father Name" required></td>
+                </tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr>
+                    <td><label for="date">Date of Birth :</label></td>
+                    <td></td>
+                    <td><input type="date" id="date" name="dob" required> (MM/DD/YYYY)</td>
+                </tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr>
+                    <td><label for="mobile">Mobile No :</label></td>
+                    <td></td>
+                    <td><input type="number" id="mobile" name="mobile" placeholder="Mobile Number" required></td>
+                </tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr>
+                    <td><label for="email">Email id :</label></td>
+                    <td></td>
+                    <td><input type="email" id="email" name="email" placeholder="abc@email.com" required></td>
+                </tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr>
+                    <td><label for="password">Password :</label></td>
+                    <td></td>
+                    <td><input type="password" id="password" placeholder="*********" name="password" required></td>
+                </tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr>
+                    <td><label for="male">Gender :</label></td>
+                    <td></td>
+                    <td>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label>
+                    </td>
+                </tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr>
+                    <td><label>Department :</label></td>
+                    <td></td>
+                    <td>
+                        <input type="checkbox" id="CSE" name="department" value="CSE">
+                        <label for="CSE">CSE</label>
+                        <input type="checkbox" id="IT" name="department" value="IT">
+                        <label for="IT">IT</label>
+                        <input type="checkbox" id="ECE" name="department" value="ECE">
+                        <label for="ECE">ECE</label>
+                        <input type="checkbox" id="Civil" name="department" value="Civil">
+                        <label for="Civil">Civil</label>
+                        <input type="checkbox" id="Mech" name="department" value="Mech">
+                        <label for="Mech">Mech</label>
+                    </td>
+                </tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr>
+                    <td><label for="courses">Courses :</label></td>
+                    <td></td>
+                    <td>
+                        <select id="courses" name="courses" required>
+                            <option value="" disabled selected>Select your course</option>
+                            <option value="bsWebApp">BS Web and App development</option>
+                            <option value="bsMERN">BS MERN Stack</option>
+                            <option value="bsAndriod">BS Andriod Development</option>
+                            <option value="bscs">BS Computer Science</option>
+                            <option value="bsit">BS Information Technology</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr>
+                    <td><label for="photo">Student Photo :</label></td>
+                    <td></td>
+                    <td><input type="file" id="photo" name="photo" required></td>
+                </tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr>
+                    <td><label for="city">City :</label></td>
+                    <td></td>
+                    <td><input type="text" id="city" name="city" placeholder="City" required></td>
+                </tr>
+                <tr></tr>
+                <tr></tr>
+                <tr></tr>
+                <tr>
+                    <td><label for="address">Address :</label></td>
+                    <td></td>
+                    <td><textarea id="address" name="address" rows="3" cols="30" placeholder="Address"
+                            required></textarea>
+                    </td>
+                </tr>
+                <tr></tr>
+                <tr></tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <button type="submit">Registration</button>
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </form>
+</body>
+
+</html>
